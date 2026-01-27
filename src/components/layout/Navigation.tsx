@@ -78,7 +78,7 @@ export function Navigation() {
   ];
 
   return (
-    <nav className="hidden lg:flex items-center gap-1">
+    <nav className="hidden lg:flex items-center gap-1 flex-shrink-0">
       {navItems.map((item) => (
         <NavItemComponent key={item.href} item={item} />
       ))}
@@ -116,7 +116,7 @@ function NavItemComponent({ item }: { item: NavItem }) {
     return (
       <Link
         href={item.href}
-        className="px-4 py-2 text-near-black font-medium hover:text-grass-green transition-colors duration-200 rounded-lg hover:bg-cream"
+        className="px-4 py-2 text-near-black font-medium hover:text-grass-green transition-colors duration-200 rounded-lg hover:bg-cream whitespace-nowrap"
       >
         {item.label}
       </Link>
@@ -132,11 +132,11 @@ function NavItemComponent({ item }: { item: NavItem }) {
     >
       <Link
         href={item.href}
-        className="flex items-center gap-1 px-4 py-2 text-near-black font-medium hover:text-grass-green transition-colors duration-200 rounded-lg hover:bg-cream"
+        className="flex items-center gap-1 px-4 py-2 text-near-black font-medium hover:text-grass-green transition-colors duration-200 rounded-lg hover:bg-cream whitespace-nowrap"
       >
         {item.label}
         <ChevronDown
-          className={`w-4 h-4 transition-transform duration-200 ${
+          className={`w-4 h-4 transition-transform duration-200 flex-shrink-0 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
@@ -156,7 +156,7 @@ function NavItemComponent({ item }: { item: NavItem }) {
                 <Link
                   key={child.href}
                   href={child.href}
-                  className="block px-4 py-2.5 text-near-black hover:bg-cream hover:text-grass-green transition-colors duration-150"
+                  className="block px-4 py-2.5 text-near-black hover:bg-cream hover:text-grass-green transition-colors duration-150 whitespace-nowrap"
                 >
                   {child.label}
                 </Link>
