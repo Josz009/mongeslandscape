@@ -41,15 +41,27 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-body), system-ui, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent any zoom/scale transforms */
+html, body {
+  zoom: 1 !important;
+  transform: none !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading), Georgia, serif;
 }
 
-/* Smooth Scrolling */
+/* Smooth Scrolling and Fixed Base Size */
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 /* Custom Focus Styles */
