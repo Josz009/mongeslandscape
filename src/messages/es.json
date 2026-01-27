@@ -1,0 +1,529 @@
+{
+  "common": {
+    "companyName": "Monge's Landscape",
+    "tagline": "Servicios Profesionales de Landscape para Propiedades en Houston",
+    "phone": "713-502-8435",
+    "email": "mongescompany@gmail.com",
+    "location": "Houston, Texas"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "whoWeServe": "A Qui\u00e9n Servimos",
+    "portfolio": "Portafolio",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "getQuote": "Cotizaci\u00f3n Gratis",
+    "viewServices": "Ver Servicios",
+    "callNow": "Llamar Ahora",
+    "learnMore": "Saber M\u00e1s",
+    "contactUs": "Cont\u00e1ctenos",
+    "requestQuote": "Solicitar Cotizaci\u00f3n",
+    "scheduleVisit": "Programar Visita"
+  },
+  "hero": {
+    "title": "Servicios Profesionales de Landscape para Propiedades en Houston",
+    "subtitle": "Su socio integral para el cuidado, mantenimiento y mejora de \u00e1reas exteriores. Ejecutamos cada proyecto con organizaci\u00f3n, puntualidad y atenci\u00f3n al detalle.",
+    "trustIndicators": {
+      "commercial": "Est\u00e1ndares Comerciales",
+      "bilingual": "Servicio Biling\u00fce",
+      "emergency": "Emergencias 24/7"
+    }
+  },
+  "services": {
+    "sectionTitle": "Servicios Integrales de Exteriores",
+    "sectionSubtitle": "Un solo proveedor para todas sus necesidades de landscape",
+    "landscapeMaintenance": {
+      "name": "Mantenimiento de Landscape",
+      "shortDesc": "Cuidado profesional de sus espacios exteriores con programas de mantenimiento regular.",
+      "description": "Servicios completos de mantenimiento de landscape para mantener su propiedad en \u00f3ptimas condiciones todo el a\u00f1o.",
+      "includes": [
+        "Corte de c\u00e9sped y orillado",
+        "Poda de arbustos y \u00e1rboles",
+        "Mantenimiento de camas y deshierbe",
+        "Limpiezas estacionales",
+        "Monitoreo continuo"
+      ],
+      "benefits": [
+        {
+          "title": "Apariencia Consistente",
+          "description": "Su propiedad siempre luce bien mantenida y profesional."
+        },
+        {
+          "title": "Valor de la Propiedad",
+          "description": "El mantenimiento regular protege y mejora su inversi\u00f3n."
+        },
+        {
+          "title": "Tranquilidad",
+          "description": "Servicio confiable con el que puede contar semana tras semana."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "\u00bfCon qu\u00e9 frecuencia proporcionan servicios de mantenimiento?",
+          "answer": "Ofrecemos programaci\u00f3n flexible incluyendo programas de mantenimiento semanal, quincenal y mensual. Recomendamos la mejor frecuencia bas\u00e1ndonos en las necesidades de su propiedad y la temporada."
+        },
+        {
+          "question": "\u00bfQu\u00e9 incluye el mantenimiento regular?",
+          "answer": "Nuestro mantenimiento est\u00e1ndar incluye corte, orillado, recorte, soplado y mantenimiento de camas. Servicios adicionales como poda, fertilizaci\u00f3n y limpiezas estacionales pueden agregarse a su programa."
+        },
+        {
+          "question": "\u00bfC\u00f3mo fijan el precio de los servicios de mantenimiento?",
+          "answer": "Proporcionamos cotizaciones personalizadas basadas en el tama\u00f1o de la propiedad, servicios necesarios y frecuencia. Ofrecemos precios competitivos sin cargos ocultos, y siempre sabr\u00e1 lo que est\u00e1 pagando."
+        },
+        {
+          "question": "\u00bfTrabajan todo el a\u00f1o en Houston?",
+          "answer": "S\u00ed, el clima de Houston permite mantenimiento durante todo el a\u00f1o. Ajustamos nuestros servicios estacionalmente - desde corte regular en temporada de crecimiento hasta limpieza de hojas en oto\u00f1o y preparaci\u00f3n para invierno."
+        }
+      ]
+    },
+    "irrigationSystems": {
+      "name": "Sistemas de Irrigaci\u00f3n",
+      "shortDesc": "Reparaci\u00f3n, instalaci\u00f3n y optimizaci\u00f3n experta de irrigaci\u00f3n para ahorrar agua y dinero.",
+      "highlight": "Diferenciador clave para HOAs y administradores de propiedades",
+      "description": "Servicios cr\u00edticos de irrigaci\u00f3n que reducen costos de agua, previenen da\u00f1os por fugas y protegen contra da\u00f1os por congelaci\u00f3n.",
+      "includes": [
+        "Reparaci\u00f3n de fugas y l\u00edneas",
+        "Instalaci\u00f3n y reemplazo de v\u00e1lvulas",
+        "Optimizaci\u00f3n de cabezales de riego",
+        "Reparaci\u00f3n y programaci\u00f3n de controladores",
+        "Servicios de winterizaci\u00f3n",
+        "Protecci\u00f3n de backflow",
+        "Diagn\u00f3sticos preventivos"
+      ],
+      "benefits": [
+        {
+          "title": "Reducir Costos de Agua",
+          "description": "Un sistema de irrigaci\u00f3n funcionando correctamente puede reducir facturas de agua 20-30%."
+        },
+        {
+          "title": "Prevenir Da\u00f1os",
+          "description": "La detecci\u00f3n temprana de fugas previene da\u00f1os costosos por agua y p\u00e9rdida de paisajismo."
+        },
+        {
+          "title": "Protecci\u00f3n contra Heladas",
+          "description": "La winterizaci\u00f3n adecuada previene da\u00f1os costosos por congelaci\u00f3n en su sistema."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "\u00bfC\u00f3mo detectan fugas de irrigaci\u00f3n?",
+          "answer": "Usamos una combinaci\u00f3n de inspecci\u00f3n visual, pruebas de presi\u00f3n y an\u00e1lisis zona por zona para identificar fugas. A menudo podemos encontrar fugas ocultas que causan facturas de agua altas antes de que causen da\u00f1os visibles."
+        },
+        {
+          "question": "\u00bfOfrecen servicios de winterizaci\u00f3n?",
+          "answer": "S\u00ed, la winterizaci\u00f3n es crucial en Houston para proteger su sistema de heladas ocasionales. Purgamos las l\u00edneas, aislamos componentes vulnerables y preparamos los controladores para el clima fr\u00edo."
+        },
+        {
+          "question": "\u00bfCu\u00e1nto puedo ahorrar en mi factura de agua?",
+          "answer": "La mayor\u00eda de las propiedades con problemas de irrigaci\u00f3n ven una reducci\u00f3n del 20-30% en las facturas de agua despu\u00e9s de reparaciones y optimizaci\u00f3n. Hemos ayudado a algunos clientes a ahorrar a\u00fan m\u00e1s con actualizaciones de controladores inteligentes."
+        },
+        {
+          "question": "\u00bfPueden trabajar con mi sistema existente?",
+          "answer": "Trabajamos con todas las marcas y tipos de sistemas de irrigaci\u00f3n. Ya sea que necesite reparaciones, actualizaciones o un reemplazo completo, podemos evaluar su sistema actual y recomendar la mejor soluci\u00f3n."
+        }
+      ]
+    },
+    "landscapeConstruction": {
+      "name": "Construcci\u00f3n de Landscape",
+      "shortDesc": "Transforme su espacio exterior con instalaci\u00f3n profesional de landscape.",
+      "description": "Servicios completos de construcci\u00f3n de landscape desde el dise\u00f1o hasta la instalaci\u00f3n.",
+      "includes": [
+        "Instalaciones nuevas de landscape",
+        "Renovaciones de landscape",
+        "Preparaci\u00f3n y nivelaci\u00f3n de terreno",
+        "Instalaci\u00f3n de c\u00e9sped",
+        "Instalaci\u00f3n de plantas y \u00e1rboles"
+      ],
+      "benefits": [
+        {
+          "title": "Resultados Profesionales",
+          "description": "Instalaci\u00f3n experta que asegura el \u00e9xito a largo plazo de su landscape."
+        },
+        {
+          "title": "Preparaci\u00f3n Adecuada",
+          "description": "Preparamos el terreno correctamente para un crecimiento saludable de las plantas."
+        },
+        {
+          "title": "Materiales de Calidad",
+          "description": "Usamos solo plantas y materiales de calidad para resultados duraderos."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "\u00bfCu\u00e1nto tiempo toma un proyecto de landscape t\u00edpico?",
+          "answer": "Los tiempos de proyecto var\u00edan seg\u00fan el alcance. Una instalaci\u00f3n de c\u00e9sped nuevo puede tomar 1-2 d\u00edas, mientras que una renovaci\u00f3n completa de landscape podr\u00eda tomar 1-2 semanas. Proporcionamos tiempos detallados en nuestras propuestas."
+        },
+        {
+          "question": "\u00bfProporcionan servicios de dise\u00f1o?",
+          "answer": "Podemos trabajar con sus planos existentes o ayudar a desarrollar un dise\u00f1o que satisfaga sus necesidades y presupuesto. Nos enfocamos en dise\u00f1os pr\u00e1cticos y sostenibles adecuados para el clima de Houston."
+        },
+        {
+          "question": "\u00bfQu\u00e9 tipo de plantas utilizan?",
+          "answer": "Seleccionamos plantas que prosperan en el clima de Houston, considerando factores como exposici\u00f3n al sol, necesidades de agua y requisitos de mantenimiento. Usamos plantas de calidad de vivero para mejores resultados."
+        },
+        {
+          "question": "\u00bfOfrecen alguna garant\u00eda en las instalaciones?",
+          "answer": "Respaldamos nuestro trabajo. Las plantas y materiales vienen con garant\u00edas est\u00e1ndar de vivero, y ofrecemos visitas de seguimiento para asegurar que todo se est\u00e9 estableciendo bien."
+        }
+      ]
+    },
+    "fenceConstruction": {
+      "name": "Construcci\u00f3n de Cercas",
+      "shortDesc": "Instalaci\u00f3n de cercas de calidad para propiedades residenciales, comerciales y comunitarias.",
+      "description": "Servicios profesionales de construcci\u00f3n y reemplazo de cercas para todo tipo de propiedades.",
+      "includes": [
+        "Cercas residenciales",
+        "Cercas comerciales",
+        "Cercas comunitarias y de HOA",
+        "Reemplazo y reparaci\u00f3n de cercas"
+      ],
+      "benefits": [
+        {
+          "title": "Seguridad y Privacidad",
+          "description": "Una cerca correctamente instalada proporciona seguridad y privacidad para su propiedad."
+        },
+        {
+          "title": "Valor de la Propiedad",
+          "description": "Las cercas de calidad mejoran el atractivo y el valor de la propiedad."
+        },
+        {
+          "title": "Durabilidad",
+          "description": "La instalaci\u00f3n profesional significa que su cerca resistir\u00e1 el paso del tiempo."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "\u00bfCon qu\u00e9 tipos de materiales de cercas trabajan?",
+          "answer": "Instalamos cercas de madera, vinilo, malla cicl\u00f3nica y metal ornamental. Podemos recomendar el mejor material basado en sus necesidades, presupuesto y tipo de propiedad."
+        },
+        {
+          "question": "\u00bfManejan los requisitos de permisos?",
+          "answer": "S\u00ed, estamos familiarizados con los requisitos de permisos del \u00e1rea de Houston y podemos guiarlo a trav\u00e9s del proceso. Las necesidades de permisos var\u00edan seg\u00fan la ubicaci\u00f3n y altura de la cerca."
+        },
+        {
+          "question": "\u00bfCu\u00e1nto tiempo toma la instalaci\u00f3n de una cerca?",
+          "answer": "La mayor\u00eda de las instalaciones de cercas residenciales toman 1-3 d\u00edas dependiendo de la longitud y el terreno. Proporcionamos tiempos espec\u00edficos en nuestras propuestas."
+        },
+        {
+          "question": "\u00bfPueden cumplir con los requisitos de HOA existentes?",
+          "answer": "Absolutamente. Trabajamos regularmente con HOAs y podemos asegurar que su cerca cumpla con los est\u00e1ndares comunitarios y pautas arquitect\u00f3nicas."
+        }
+      ]
+    },
+    "trashCleanup": {
+      "name": "Basura y Limpieza",
+      "shortDesc": "Servicios completos de limpieza de propiedades y remoci\u00f3n de escombros.",
+      "description": "Servicios integrales de limpieza para mantener su propiedad limpia y presentable.",
+      "includes": [
+        "Remoci\u00f3n de escombros",
+        "Limpieza de propiedades",
+        "Mantenimiento de \u00e1reas comunes",
+        "Apoyo en transici\u00f3n de propiedades",
+        "Flota propia de camiones para acarreo"
+      ],
+      "benefits": [
+        {
+          "title": "Propiedades Limpias",
+          "description": "Mantenga una apariencia limpia y profesional en todo momento."
+        },
+        {
+          "title": "Respuesta R\u00e1pida",
+          "description": "Nuestros propios camiones significan respuesta r\u00e1pida para necesidades de limpieza."
+        },
+        {
+          "title": "Servicio Integral",
+          "description": "Manejamos todo, desde peque\u00f1os escombros hasta grandes limpiezas."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "\u00bfQu\u00e9 tipos de escombros remueven?",
+          "answer": "Manejamos escombros de landscape, limpieza de tormentas, escombros de construcci\u00f3n, basura dom\u00e9stica y limpieza general de propiedades. No manejamos materiales peligrosos."
+        },
+        {
+          "question": "\u00bfPueden programar limpiezas regulares?",
+          "answer": "S\u00ed, ofrecemos limpiezas \u00fanicas o servicio recurrente para propiedades que necesitan atenci\u00f3n regular. Esto es popular con HOAs y administradores de propiedades."
+        },
+        {
+          "question": "\u00bfC\u00f3mo disponen de los escombros?",
+          "answer": "Disponemos adecuadamente de todos los escombros seg\u00fan las regulaciones locales. Los materiales reciclables se separan cuando es posible, y usamos instalaciones de disposici\u00f3n autorizadas."
+        },
+        {
+          "question": "\u00bfOfrecen servicios de limpieza de emergencia?",
+          "answer": "S\u00ed, podemos responder r\u00e1pidamente para necesidades urgentes de limpieza, especialmente despu\u00e9s de tormentas o para emergencias de propiedades. Cont\u00e1ctenos y haremos lo mejor para ayudar."
+        }
+      ]
+    },
+    "emergencyServices": {
+      "name": "Servicios de Emergencia",
+      "shortDesc": "Respuesta de emergencia 24/7 para situaciones urgentes de landscape.",
+      "description": "Respuesta r\u00e1pida para situaciones de emergencia que no pueden esperar.",
+      "includes": [
+        "Respuesta a fugas de agua",
+        "Reparaci\u00f3n de da\u00f1os por congelaci\u00f3n",
+        "Remoci\u00f3n de \u00e1rboles ca\u00eddos",
+        "Limpieza urgente por clima"
+      ],
+      "benefits": [
+        {
+          "title": "Disponibilidad 24/7",
+          "description": "Estamos disponibles las 24 horas cuando surgen emergencias."
+        },
+        {
+          "title": "Respuesta R\u00e1pida",
+          "description": "Respuesta r\u00e1pida para minimizar da\u00f1os e interrupciones."
+        },
+        {
+          "title": "Manejo Experto",
+          "description": "Equipo experimentado que sabe c\u00f3mo manejar situaciones de emergencia."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "\u00bfRealmente est\u00e1n disponibles 24/7?",
+          "answer": "S\u00ed, tenemos una l\u00ednea de emergencia que se monitorea las 24 horas. Para emergencias verdaderas como fugas de agua activas o \u00e1rboles ca\u00eddos peligrosos, respondemos lo m\u00e1s r\u00e1pido posible."
+        },
+        {
+          "question": "\u00bfQu\u00e9 tan r\u00e1pido pueden responder a una emergencia?",
+          "answer": "Los tiempos de respuesta dependen de la situaci\u00f3n y nuestra carga de trabajo actual, pero priorizamos las emergencias verdaderas y t\u00edpicamente respondemos dentro de horas, no d\u00edas."
+        },
+        {
+          "question": "\u00bfQu\u00e9 califica como emergencia?",
+          "answer": "Las emergencias incluyen fugas de agua activas, roturas de irrigaci\u00f3n, \u00e1rboles ca\u00eddos bloqueando acceso o causando da\u00f1os, da\u00f1os por tormentas que requieren atenci\u00f3n inmediata, y da\u00f1os por heladas en sistemas de irrigaci\u00f3n."
+        },
+        {
+          "question": "\u00bfEl servicio de emergencia es m\u00e1s caro?",
+          "answer": "Las tarifas de emergencia pueden ser m\u00e1s altas que las tarifas de servicio est\u00e1ndar debido a la naturaleza urgente y disponibilidad fuera de horario. Proporcionamos precios por adelantado antes de comenzar cualquier trabajo."
+        }
+      ]
+    }
+  },
+  "whyChooseUs": {
+    "sectionTitle": "Por Qu\u00e9 las Propiedades de Houston Conf\u00edan en Monge's Landscape",
+    "differentiators": [
+      {
+        "title": "Empresa Integral",
+        "description": "Un solo proveedor para m\u00faltiples necesidades exteriores. Simplifique su gesti\u00f3n de proveedores."
+      },
+      {
+        "title": "Est\u00e1ndares Comerciales",
+        "description": "Procesos claros, cumplimiento y organizaci\u00f3n. Operamos como una empresa, no como una cuadrilla."
+      },
+      {
+        "title": "Comunicaci\u00f3n Proactiva",
+        "description": "Siempre sabe lo que se est\u00e1 haciendo. Actualizaciones regulares y servicio responsivo."
+      },
+      {
+        "title": "Soluciones, No Excusas",
+        "description": "Identificamos problemas y los resolvemos. Sin se\u00f1alar culpables, solo resultados."
+      },
+      {
+        "title": "Control de Calidad",
+        "description": "Cada trabajo revisado antes de completarse. Revisamos nuestro trabajo para que usted no tenga que hacerlo."
+      },
+      {
+        "title": "Compromiso Real",
+        "description": "No solo 'cumplimos' \u2014 entregamos. La apariencia de su propiedad es nuestra reputaci\u00f3n."
+      }
+    ]
+  },
+  "process": {
+    "sectionTitle": "C\u00f3mo Trabajamos",
+    "sectionSubtitle": "Un proceso claro y profesional que genera confianza",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Visita al Sitio",
+        "description": "Visitamos su propiedad para entender sus necesidades y evaluar el alcance del trabajo."
+      },
+      {
+        "number": "2",
+        "title": "Propuesta",
+        "description": "Recibe una propuesta clara y detallada con precios transparentes."
+      },
+      {
+        "number": "3",
+        "title": "Ejecuci\u00f3n",
+        "description": "Nuestro equipo completa el trabajo con profesionalismo y atenci\u00f3n al detalle."
+      },
+      {
+        "number": "4",
+        "title": "Seguimiento",
+        "description": "Hacemos seguimiento para asegurar su satisfacci\u00f3n y atender cualquier inquietud."
+      }
+    ]
+  },
+  "whoWeServe": {
+    "sectionTitle": "Propiedades que Servimos",
+    "audiences": {
+      "hoas": {
+        "name": "HOAs",
+        "shortDesc": "Manteniendo valores de propiedad y est\u00e1ndares comunitarios",
+        "description": "Entendemos las necesidades \u00fanicas de las comunidades HOA. Desde mantener \u00e1reas comunes hasta asegurar est\u00e1ndares consistentes en toda la comunidad, ayudamos a proteger los valores de la propiedad y mantener a los residentes contentos.",
+        "benefits": [
+          "Apariencia comunitaria consistente",
+          "Responsivos a requisitos de la junta",
+          "Reportes detallados y comunicaci\u00f3n",
+          "Respuesta de emergencia cuando se necesita"
+        ]
+      },
+      "propertyManagers": {
+        "name": "Administradores de Propiedades",
+        "shortDesc": "Socio confiable con el que puede contar",
+        "description": "Los administradores de propiedades necesitan proveedores en los que puedan confiar. Proporcionamos servicio confiable y profesional que facilita su trabajo y mantiene sus propiedades luciendo lo mejor posible.",
+        "benefits": [
+          "Un proveedor para m\u00faltiples servicios",
+          "Programaci\u00f3n consistente y confiable",
+          "Documentaci\u00f3n profesional",
+          "Respuesta r\u00e1pida a problemas"
+        ]
+      },
+      "commercial": {
+        "name": "Comercial",
+        "shortDesc": "Apariencia profesional para su negocio",
+        "description": "El exterior de su negocio es la primera impresi\u00f3n que tienen los clientes. Ayudamos a las propiedades comerciales a mantener una apariencia profesional y acogedora que refleja bien su marca.",
+        "benefits": [
+          "Atractivo profesional",
+          "Programaci\u00f3n flexible para minimizar interrupciones",
+          "Servicios integrales",
+          "Mantenimiento confiable todo el a\u00f1o"
+        ]
+      },
+      "residential": {
+        "name": "Residencial",
+        "shortDesc": "Su hogar, nuestra prioridad",
+        "description": "Tratamos su hogar con el mismo cuidado que le dar\u00edamos al nuestro. Desde mantenimiento regular hasta proyectos especiales, le ayudamos a disfrutar de un hermoso espacio exterior.",
+        "benefits": [
+          "Servicio personalizado",
+          "Atenci\u00f3n al detalle",
+          "Respetuosos de su propiedad",
+          "Comunicaci\u00f3n clara"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Lo Que Dicen Nuestros Clientes",
+    "items": {
+      "0": {
+        "quote": "Monge's Landscape ha estado manteniendo nuestra HOA por m\u00e1s de dos a\u00f1os. Su atenci\u00f3n al detalle y comunicaci\u00f3n es excelente.",
+        "name": "Mar\u00eda Rodr\u00edguez",
+        "title": "Presidenta de Junta HOA",
+        "rating": "5"
+      },
+      "1": {
+        "quote": "Finalmente encontr\u00e9 una empresa de landscape que realmente llega cuando dice que llegar\u00e1. Profesional y confiable.",
+        "name": "James Thompson",
+        "title": "Administrador de Propiedades",
+        "rating": "5"
+      },
+      "2": {
+        "quote": "Arreglaron nuestro sistema de irrigaci\u00f3n y nos ahorraron cientos en nuestra factura de agua. Altamente recomiendo sus servicios.",
+        "name": "Sarah Chen",
+        "title": "Propietaria",
+        "rating": "5"
+      }
+    }
+  },
+  "emergency": {
+    "title": "Servicios de Emergencia 24/7 Disponibles",
+    "description": "Fugas de agua \u2022 Da\u00f1os por heladas \u2022 \u00c1rboles ca\u00eddos \u2022 Limpiezas urgentes"
+  },
+  "contact": {
+    "sectionTitle": "Cont\u00e1ctenos",
+    "formTitle": "Solicitar Cotizaci\u00f3n",
+    "form": {
+      "name": "Su Nombre",
+      "email": "Correo Electr\u00f3nico",
+      "phone": "N\u00famero de Tel\u00e9fono",
+      "propertyType": "Tipo de Propiedad",
+      "serviceNeeded": "Servicio Necesitado",
+      "message": "Mensaje (Opcional)",
+      "submit": "Enviar Solicitud",
+      "propertyTypes": {
+        "hoa": "HOA / Comunidad",
+        "commercial": "Propiedad Comercial",
+        "residential": "Residencial",
+        "apartment": "Complejo de Apartamentos"
+      },
+      "serviceTypes": {
+        "maintenance": "Mantenimiento de Landscape",
+        "irrigation": "Servicios de Irrigaci\u00f3n",
+        "construction": "Construcci\u00f3n de Landscape",
+        "fence": "Construcci\u00f3n de Cercas",
+        "cleanup": "Basura y Limpieza",
+        "emergency": "Servicios de Emergencia"
+      }
+    },
+    "info": {
+      "title": "Informaci\u00f3n de Contacto",
+      "hoursTitle": "Horario de Atenci\u00f3n",
+      "weekdays": "Lunes - Viernes: 7:00 AM - 6:00 PM",
+      "saturday": "S\u00e1bado: 8:00 AM - 4:00 PM",
+      "sunday": "Domingo: Cerrado",
+      "serviceArea": "Sirviendo el \u00c1rea Metropolitana de Houston"
+    }
+  },
+  "about": {
+    "title": "Sobre Monge's Landscape",
+    "mission": {
+      "title": "Nuestro Compromiso",
+      "description": "En Monge's Landscape, no solo ofrecemos servicios de exteriores \u2014 proporcionamos soluciones integrales para el cuidado, mantenimiento y mejora de sus espacios. Ejecutamos cada proyecto con organizaci\u00f3n, puntualidad y atenci\u00f3n al detalle, usando procesos claros y un compromiso real con la excelencia. Nuestra misi\u00f3n es ser el socio de confianza que necesita, proporcionando servicio confiable de grado profesional que le da tranquilidad."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        {
+          "title": "Profesionalismo",
+          "description": "Operamos con est\u00e1ndares comerciales y procesos claros."
+        },
+        {
+          "title": "Confiabilidad",
+          "description": "Llegamos cuando decimos que llegaremos y entregamos lo que prometemos."
+        },
+        {
+          "title": "Comunicaci\u00f3n",
+          "description": "Le mantenemos informado en cada paso del camino."
+        },
+        {
+          "title": "Calidad",
+          "description": "Nos enorgullecemos de nuestro trabajo y se nota en cada proyecto."
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Nuestro Trabajo",
+    "subtitle": "Vea ejemplos de nuestros proyectos de landscape en el \u00e1rea de Houston",
+    "categories": {
+      "all": "Todos los Proyectos",
+      "maintenance": "Mantenimiento",
+      "irrigation": "Irrigaci\u00f3n",
+      "construction": "Construcci\u00f3n",
+      "fencing": "Cercas"
+    }
+  },
+  "footer": {
+    "description": "Servicios profesionales de landscape para propiedades en Houston. Soluciones integrales con est\u00e1ndares comerciales y compromiso real.",
+    "servicesTitle": "Servicios",
+    "audiencesTitle": "A Qui\u00e9n Servimos",
+    "contactTitle": "Contacto",
+    "copyright": "\u00a9 2026 Monge's Landscape. Todos los derechos reservados.",
+    "privacy": "Pol\u00edtica de Privacidad",
+    "terms": "T\u00e9rminos de Servicio"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes"
+  },
+  "serviceTemplate": {
+    "whatsIncluded": "Qu\u00e9 Incluye",
+    "benefits": "Beneficios",
+    "portfolioPreview": "Nuestro Trabajo",
+    "faq": "Preguntas Frecuentes",
+    "readyToStart": "\u00bfListo para Comenzar?",
+    "ctaDescription": "Cont\u00e1ctenos hoy para una consulta y cotizaci\u00f3n gratuita."
+  }
+}

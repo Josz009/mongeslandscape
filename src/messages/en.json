@@ -1,0 +1,529 @@
+{
+  "common": {
+    "companyName": "Monge's Landscape",
+    "tagline": "Professional Landscape Services for Houston Properties",
+    "phone": "713-502-8435",
+    "email": "mongescompany@gmail.com",
+    "location": "Houston, Texas"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "whoWeServe": "Who We Serve",
+    "portfolio": "Portfolio",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "cta": {
+    "getQuote": "Get Free Quote",
+    "viewServices": "View Our Services",
+    "callNow": "Call Now",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "requestQuote": "Request Quote",
+    "scheduleVisit": "Schedule a Visit"
+  },
+  "hero": {
+    "title": "Professional Landscape Services for Houston Properties",
+    "subtitle": "Your comprehensive partner for the care, maintenance, and enhancement of outdoor spaces. We execute every project with organization, punctuality, and attention to detail.",
+    "trustIndicators": {
+      "commercial": "Commercial Standards",
+      "bilingual": "Bilingual Service",
+      "emergency": "24/7 Emergency Response"
+    }
+  },
+  "services": {
+    "sectionTitle": "Comprehensive Outdoor Services",
+    "sectionSubtitle": "One provider for all your landscape needs",
+    "landscapeMaintenance": {
+      "name": "Landscape Maintenance",
+      "shortDesc": "Professional care for your outdoor spaces with regular maintenance programs.",
+      "description": "Comprehensive landscape maintenance services to keep your property looking its best year-round.",
+      "includes": [
+        "Mowing and edging",
+        "Shrub and tree pruning",
+        "Bed maintenance and weeding",
+        "Seasonal cleanups",
+        "Continuous monitoring"
+      ],
+      "benefits": [
+        {
+          "title": "Consistent Appearance",
+          "description": "Your property always looks well-maintained and professional."
+        },
+        {
+          "title": "Property Value",
+          "description": "Regular maintenance protects and enhances your investment."
+        },
+        {
+          "title": "Peace of Mind",
+          "description": "Reliable service you can count on week after week."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How often do you provide maintenance services?",
+          "answer": "We offer flexible scheduling including weekly, bi-weekly, and monthly maintenance programs. We'll recommend the best frequency based on your property's needs and the season."
+        },
+        {
+          "question": "What's included in regular maintenance?",
+          "answer": "Our standard maintenance includes mowing, edging, trimming, blowing, and bed maintenance. Additional services like pruning, fertilization, and seasonal cleanups can be added to your program."
+        },
+        {
+          "question": "How do you price maintenance services?",
+          "answer": "We provide custom quotes based on property size, services needed, and frequency. We offer competitive pricing with no hidden fees, and you'll always know what you're paying for."
+        },
+        {
+          "question": "Do you work year-round in Houston?",
+          "answer": "Yes, Houston's climate allows for year-round maintenance. We adjust our services seasonally - from regular mowing in growing season to leaf cleanup in fall and winter preparation."
+        }
+      ]
+    },
+    "irrigationSystems": {
+      "name": "Irrigation Systems",
+      "shortDesc": "Expert irrigation repair, installation, and optimization to save water and money.",
+      "highlight": "Key differentiator for HOAs and property managers",
+      "description": "Critical irrigation services that reduce water costs, prevent leak damage, and protect against freeze damage.",
+      "includes": [
+        "Leak and line repair",
+        "Valve installation and replacement",
+        "Sprinkler head optimization",
+        "Controller repair and programming",
+        "Winterization services",
+        "Backflow protection",
+        "Preventive diagnostics"
+      ],
+      "benefits": [
+        {
+          "title": "Reduce Water Costs",
+          "description": "Properly functioning irrigation can reduce water bills by 20-30%."
+        },
+        {
+          "title": "Prevent Damage",
+          "description": "Early leak detection prevents expensive water damage and landscaping loss."
+        },
+        {
+          "title": "Freeze Protection",
+          "description": "Proper winterization prevents costly freeze damage to your system."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do you detect irrigation leaks?",
+          "answer": "We use a combination of visual inspection, pressure testing, and zone-by-zone analysis to identify leaks. We can often find hidden leaks that cause high water bills before they cause visible damage."
+        },
+        {
+          "question": "Do you offer winterization services?",
+          "answer": "Yes, winterization is crucial in Houston to protect your system from occasional freezes. We blow out lines, insulate vulnerable components, and prepare controllers for cold weather."
+        },
+        {
+          "question": "How much can I save on my water bill?",
+          "answer": "Most properties with irrigation issues see 20-30% reduction in water bills after repairs and optimization. We've helped some clients save even more with smart controller upgrades."
+        },
+        {
+          "question": "Can you work with my existing system?",
+          "answer": "We work with all brands and types of irrigation systems. Whether you need repairs, upgrades, or a complete replacement, we can assess your current system and recommend the best solution."
+        }
+      ]
+    },
+    "landscapeConstruction": {
+      "name": "Landscape Construction",
+      "shortDesc": "Transform your outdoor space with professional landscape installation.",
+      "description": "Complete landscape construction services from design to installation.",
+      "includes": [
+        "New landscape installations",
+        "Landscape renovations",
+        "Ground preparation and leveling",
+        "Sod installation",
+        "Plant and tree installation"
+      ],
+      "benefits": [
+        {
+          "title": "Professional Results",
+          "description": "Expert installation that ensures long-term success of your landscape."
+        },
+        {
+          "title": "Proper Preparation",
+          "description": "We prepare the ground correctly for healthy plant growth."
+        },
+        {
+          "title": "Quality Materials",
+          "description": "We use only quality plants and materials for lasting results."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does a typical landscape project take?",
+          "answer": "Project timelines vary based on scope. A new sod installation might take 1-2 days, while a full landscape renovation could take 1-2 weeks. We provide detailed timelines in our proposals."
+        },
+        {
+          "question": "Do you provide design services?",
+          "answer": "We can work with your existing plans or help develop a design that meets your needs and budget. We focus on practical, sustainable designs suited to Houston's climate."
+        },
+        {
+          "question": "What type of plants do you use?",
+          "answer": "We select plants that thrive in Houston's climate, considering factors like sun exposure, water needs, and maintenance requirements. We use quality nursery stock for the best results."
+        },
+        {
+          "question": "Do you offer any warranty on installations?",
+          "answer": "We stand behind our work. Plants and materials come with standard nursery warranties, and we offer follow-up visits to ensure everything is establishing well."
+        }
+      ]
+    },
+    "fenceConstruction": {
+      "name": "Fence Construction",
+      "shortDesc": "Quality fence installation for residential, commercial, and community properties.",
+      "description": "Professional fence construction and replacement services for all property types.",
+      "includes": [
+        "Residential fencing",
+        "Commercial fencing",
+        "Community and HOA fencing",
+        "Fence replacement and repair"
+      ],
+      "benefits": [
+        {
+          "title": "Security & Privacy",
+          "description": "Properly installed fencing provides security and privacy for your property."
+        },
+        {
+          "title": "Property Value",
+          "description": "Quality fencing enhances curb appeal and property value."
+        },
+        {
+          "title": "Durability",
+          "description": "Professional installation means your fence will stand the test of time."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What types of fencing materials do you work with?",
+          "answer": "We install wood, vinyl, chain link, and ornamental metal fencing. We can recommend the best material based on your needs, budget, and property type."
+        },
+        {
+          "question": "Do you handle permit requirements?",
+          "answer": "Yes, we're familiar with Houston-area permit requirements and can guide you through the process. Permit needs vary by location and fence height."
+        },
+        {
+          "question": "How long does fence installation take?",
+          "answer": "Most residential fence installations take 1-3 days depending on length and terrain. We provide specific timelines in our proposals."
+        },
+        {
+          "question": "Can you match existing HOA requirements?",
+          "answer": "Absolutely. We regularly work with HOAs and can ensure your fence meets community standards and architectural guidelines."
+        }
+      ]
+    },
+    "trashCleanup": {
+      "name": "Trash & Cleanup",
+      "shortDesc": "Complete property cleanup and debris removal services.",
+      "description": "Comprehensive cleanup services to keep your property clean and presentable.",
+      "includes": [
+        "Debris removal",
+        "Property cleaning",
+        "Common area maintenance",
+        "Property transition support",
+        "Own truck fleet for hauling"
+      ],
+      "benefits": [
+        {
+          "title": "Clean Properties",
+          "description": "Maintain a clean, professional appearance at all times."
+        },
+        {
+          "title": "Quick Response",
+          "description": "Our own trucks mean fast response for cleanup needs."
+        },
+        {
+          "title": "Comprehensive Service",
+          "description": "We handle everything from small debris to large cleanups."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What types of debris do you remove?",
+          "answer": "We handle landscape debris, storm cleanup, construction debris, household junk, and general property cleanup. We do not handle hazardous materials."
+        },
+        {
+          "question": "Can you schedule regular cleanups?",
+          "answer": "Yes, we offer one-time cleanups or recurring service for properties that need regular attention. This is popular with HOAs and property managers."
+        },
+        {
+          "question": "How do you dispose of the debris?",
+          "answer": "We properly dispose of all debris according to local regulations. Recyclable materials are separated when possible, and we use licensed disposal facilities."
+        },
+        {
+          "question": "Do you offer emergency cleanup services?",
+          "answer": "Yes, we can respond quickly for urgent cleanup needs, especially after storms or for property emergencies. Contact us and we'll do our best to help."
+        }
+      ]
+    },
+    "emergencyServices": {
+      "name": "Emergency Services",
+      "shortDesc": "24/7 emergency response for urgent landscape situations.",
+      "description": "Rapid response for emergency situations that can't wait.",
+      "includes": [
+        "Water leak response",
+        "Freeze damage repair",
+        "Fallen tree removal",
+        "Urgent weather cleanup"
+      ],
+      "benefits": [
+        {
+          "title": "24/7 Availability",
+          "description": "We're available around the clock when emergencies strike."
+        },
+        {
+          "title": "Fast Response",
+          "description": "Quick response to minimize damage and disruption."
+        },
+        {
+          "title": "Expert Handling",
+          "description": "Experienced team that knows how to handle emergency situations."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Are you really available 24/7?",
+          "answer": "Yes, we have an emergency line that's monitored around the clock. For true emergencies like active water leaks or dangerous fallen trees, we respond as quickly as possible."
+        },
+        {
+          "question": "How quickly can you respond to an emergency?",
+          "answer": "Response times depend on the situation and our current workload, but we prioritize true emergencies and typically respond within hours, not days."
+        },
+        {
+          "question": "What qualifies as an emergency?",
+          "answer": "Emergencies include active water leaks, irrigation breaks, fallen trees blocking access or causing damage, storm damage requiring immediate attention, and freeze damage to irrigation systems."
+        },
+        {
+          "question": "Is emergency service more expensive?",
+          "answer": "Emergency rates may be higher than standard service rates due to the urgent nature and after-hours availability. We provide upfront pricing before starting any work."
+        }
+      ]
+    }
+  },
+  "whyChooseUs": {
+    "sectionTitle": "Why Houston Properties Trust Monge's Landscape",
+    "differentiators": [
+      {
+        "title": "Comprehensive Company",
+        "description": "One provider for multiple outdoor needs. Simplify your vendor management."
+      },
+      {
+        "title": "Commercial Standards",
+        "description": "Clear processes, compliance, and organization. We operate like a business, not a crew."
+      },
+      {
+        "title": "Proactive Communication",
+        "description": "You always know what's being done. Regular updates and responsive service."
+      },
+      {
+        "title": "Solutions, Not Excuses",
+        "description": "We identify problems and solve them. No finger-pointing, just results."
+      },
+      {
+        "title": "Quality Control",
+        "description": "Every job reviewed before completion. We check our work so you don't have to."
+      },
+      {
+        "title": "Real Commitment",
+        "description": "We don't just 'get by' \u2014 we deliver. Your property's appearance is our reputation."
+      }
+    ]
+  },
+  "process": {
+    "sectionTitle": "How We Work",
+    "sectionSubtitle": "A clear, professional process that builds trust",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Site Visit",
+        "description": "We visit your property to understand your needs and assess the scope of work."
+      },
+      {
+        "number": "2",
+        "title": "Proposal",
+        "description": "You receive a clear, detailed proposal with transparent pricing."
+      },
+      {
+        "number": "3",
+        "title": "Execution",
+        "description": "Our team completes the work with professionalism and attention to detail."
+      },
+      {
+        "number": "4",
+        "title": "Follow-up",
+        "description": "We follow up to ensure your satisfaction and address any concerns."
+      }
+    ]
+  },
+  "whoWeServe": {
+    "sectionTitle": "Properties We Serve",
+    "audiences": {
+      "hoas": {
+        "name": "HOAs",
+        "shortDesc": "Maintaining property values and community standards",
+        "description": "We understand the unique needs of HOA communities. From maintaining common areas to ensuring consistent standards across the community, we help protect property values and keep residents happy.",
+        "benefits": [
+          "Consistent community appearance",
+          "Responsive to board requirements",
+          "Detailed reporting and communication",
+          "Emergency response when needed"
+        ]
+      },
+      "propertyManagers": {
+        "name": "Property Managers",
+        "shortDesc": "Reliable partner you can count on",
+        "description": "Property managers need vendors they can trust. We provide reliable, professional service that makes your job easier and keeps your properties looking their best.",
+        "benefits": [
+          "One vendor for multiple services",
+          "Consistent, reliable scheduling",
+          "Professional documentation",
+          "Quick response to issues"
+        ]
+      },
+      "commercial": {
+        "name": "Commercial",
+        "shortDesc": "Professional appearance for your business",
+        "description": "Your business's exterior is the first impression customers have. We help commercial properties maintain a professional, welcoming appearance that reflects well on your brand.",
+        "benefits": [
+          "Professional curb appeal",
+          "Flexible scheduling to minimize disruption",
+          "Comprehensive services",
+          "Reliable year-round maintenance"
+        ]
+      },
+      "residential": {
+        "name": "Residential",
+        "shortDesc": "Your home, our priority",
+        "description": "We treat your home with the same care we'd give our own. From regular maintenance to special projects, we help you enjoy a beautiful outdoor space.",
+        "benefits": [
+          "Personalized service",
+          "Attention to detail",
+          "Respectful of your property",
+          "Clear communication"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "What Our Clients Say",
+    "items": {
+      "0": {
+        "quote": "Monge's Landscape has been maintaining our HOA for over two years. Their attention to detail and communication is excellent.",
+        "name": "Maria Rodriguez",
+        "title": "HOA Board President",
+        "rating": "5"
+      },
+      "1": {
+        "quote": "Finally found a landscape company that actually shows up when they say they will. Professional and reliable.",
+        "name": "James Thompson",
+        "title": "Property Manager",
+        "rating": "5"
+      },
+      "2": {
+        "quote": "They fixed our irrigation system and saved us hundreds on our water bill. Highly recommend their services.",
+        "name": "Sarah Chen",
+        "title": "Homeowner",
+        "rating": "5"
+      }
+    }
+  },
+  "emergency": {
+    "title": "24/7 Emergency Services Available",
+    "description": "Water leaks \u2022 Freeze damage \u2022 Fallen trees \u2022 Urgent cleanups"
+  },
+  "contact": {
+    "sectionTitle": "Get in Touch",
+    "formTitle": "Request a Quote",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "propertyType": "Property Type",
+      "serviceNeeded": "Service Needed",
+      "message": "Message (Optional)",
+      "submit": "Submit Request",
+      "propertyTypes": {
+        "hoa": "HOA / Community",
+        "commercial": "Commercial Property",
+        "residential": "Residential",
+        "apartment": "Apartment Complex"
+      },
+      "serviceTypes": {
+        "maintenance": "Landscape Maintenance",
+        "irrigation": "Irrigation Services",
+        "construction": "Landscape Construction",
+        "fence": "Fence Construction",
+        "cleanup": "Trash & Cleanup",
+        "emergency": "Emergency Services"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "hoursTitle": "Business Hours",
+      "weekdays": "Monday - Friday: 7:00 AM - 6:00 PM",
+      "saturday": "Saturday: 8:00 AM - 4:00 PM",
+      "sunday": "Sunday: Closed",
+      "serviceArea": "Serving the Greater Houston Area"
+    }
+  },
+  "about": {
+    "title": "About Monge's Landscape",
+    "mission": {
+      "title": "Our Commitment",
+      "description": "At Monge's Landscape, we don't just offer outdoor services \u2014 we provide comprehensive solutions for the care, maintenance, and enhancement of your spaces. We execute every project with organization, punctuality, and attention to detail, using clear processes and a real commitment to excellence. Our mission is to be the trusted partner you need, providing reliable, professional-grade service that gives you peace of mind."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Professionalism",
+          "description": "We operate with commercial standards and clear processes."
+        },
+        {
+          "title": "Reliability",
+          "description": "We show up when we say we will and deliver what we promise."
+        },
+        {
+          "title": "Communication",
+          "description": "We keep you informed every step of the way."
+        },
+        {
+          "title": "Quality",
+          "description": "We take pride in our work and it shows in every project."
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Our Work",
+    "subtitle": "See examples of our landscape projects across the Houston area",
+    "categories": {
+      "all": "All Projects",
+      "maintenance": "Maintenance",
+      "irrigation": "Irrigation",
+      "construction": "Construction",
+      "fencing": "Fencing"
+    }
+  },
+  "footer": {
+    "description": "Professional landscape services for Houston properties. Comprehensive solutions with commercial standards and real commitment.",
+    "servicesTitle": "Services",
+    "audiencesTitle": "Who We Serve",
+    "contactTitle": "Contact",
+    "copyright": "\u00a9 2026 Monge's Landscape. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "serviceTemplate": {
+    "whatsIncluded": "What's Included",
+    "benefits": "Benefits",
+    "portfolioPreview": "Our Work",
+    "faq": "Frequently Asked Questions",
+    "readyToStart": "Ready to Get Started?",
+    "ctaDescription": "Contact us today for a free consultation and quote."
+  }
+}
