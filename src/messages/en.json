@@ -518,6 +518,17 @@
   "faq": {
     "title": "Frequently Asked Questions"
   },
+  "whyGetQuote": {
+    "title": "Every Project Is Unique — Your Quote Should Be Too",
+    "description": "Tell us about your property and we'll craft a custom plan that fits your needs and budget. No cookie-cutter pricing.",
+    "points": {
+      "consultation": "Free on-site consultation",
+      "customPlan": "Custom plan tailored to your property",
+      "noObligation": "No obligation, no pressure",
+      "promotions": "Ask about our current promotions"
+    },
+    "cta": "Get Your Free Quote"
+  },
   "serviceTemplate": {
     "whatsIncluded": "What's Included",
     "benefits": "Benefits",

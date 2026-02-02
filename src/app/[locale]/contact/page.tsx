@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Header, Footer } from "@/components/layout";
 import { Container, Card } from "@/components/ui";
 import { SectionHeader } from "@/components/shared";
-import { QuoteForm, EmergencyBanner } from "@/components/sections";
+import { QuoteForm, EmergencyBanner, WhyGetQuote } from "@/components/sections";
 import { BUSINESS_INFO, formatPhoneLink } from "@/lib/utils";
 
 export default function ContactPage() {
@@ -84,8 +84,11 @@ export default function ContactPage() {
                 </Card>
               </div>
 
-              {/* Map & Hours */}
+              {/* Map, Hours & Why Get Quote */}
               <div className="space-y-8">
+                {/* Why Get a Quote */}
+                <WhyGetQuote variant="card" />
+
                 {/* Real Houston Map - OpenStreetMap */}
                 <div className="aspect-video rounded-xl overflow-hidden bg-cream relative shadow-lg">
                   <iframe
