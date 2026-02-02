@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
-import { Phone, Mail, MapPin, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import { Container } from "@/components/ui";
 import { BUSINESS_INFO, formatPhoneLink } from "@/lib/utils";
 
@@ -78,6 +78,15 @@ export function Footer() {
                 {t("description")}
               </p>
               <div className="flex items-center gap-4">
+                <a
+                  href={BUSINESS_INFO.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-grass-green transition-colors"
+                  aria-label="Follow us on Facebook"
+                >
+                  <Facebook className="w-5 h-5" />
+                </a>
                 <a
                   href={`https://instagram.com/${BUSINESS_INFO.instagram}`}
                   target="_blank"
