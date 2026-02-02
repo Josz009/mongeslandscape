@@ -7,3 +7,4 @@ export { Testimonials } from "./Testimonials";
 export { EmergencyBanner } from "./EmergencyBanner";
 export { ContactSection } from "./ContactSection";
 export { QuoteForm } from "./QuoteForm";
+export { WhyGetQuote } from "./WhyGetQuote";

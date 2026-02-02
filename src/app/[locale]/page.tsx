@@ -9,6 +9,7 @@ import {
   Testimonials,
   EmergencyBanner,
   ContactSection,
+  WhyGetQuote,
 } from "@/components/sections";
 
 interface PageProps {
@@ -30,6 +31,7 @@ export default async function HomePage({ params }: PageProps) {
         <WhoWeServe />
         <Testimonials />
         <EmergencyBanner />
+        <WhyGetQuote />
         <ContactSection />
       </main>
       <Footer />

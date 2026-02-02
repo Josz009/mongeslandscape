@@ -518,6 +518,17 @@
   "faq": {
     "title": "Preguntas Frecuentes"
   },
+  "whyGetQuote": {
+    "title": "Cada Proyecto Es Único — Su Cotización También Debería Serlo",
+    "description": "Cuéntenos sobre su propiedad y crearemos un plan personalizado que se ajuste a sus necesidades y presupuesto. Sin precios genéricos.",
+    "points": {
+      "consultation": "Consulta gratuita en sitio",
+      "customPlan": "Plan personalizado para su propiedad",
+      "noObligation": "Sin compromiso, sin presión",
+      "promotions": "Pregunte por nuestras promociones actuales"
+    },
+    "cta": "Obtenga Su Cotización Gratis"
+  },
   "serviceTemplate": {
     "whatsIncluded": "Qu\u00e9 Incluye",
     "benefits": "Beneficios",
