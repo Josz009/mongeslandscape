@@ -144,7 +144,7 @@ export function WhyGetQuote({ variant = "section" }: WhyGetQuoteProps) {
                 >
                   {/* Animated icon in glow circle */}
                   <div className="relative mx-auto mb-4 w-14 h-14">
-                    <div className="absolute inset-0 rounded-full bg-grass-green/20 group-hover:bg-grass-green/30 transition-colors duration-300" />
+                    <div className="absolute inset-0 rounded-full bg-white/15 group-hover:bg-white/25 transition-colors duration-300" />
                     <motion.div
                       initial={anim.initial}
                       whileInView={anim.animate}
@@ -153,7 +153,7 @@ export function WhyGetQuote({ variant = "section" }: WhyGetQuoteProps) {
                       whileHover={anim.hover}
                       className="absolute inset-0 flex items-center justify-center"
                     >
-                      <Icon className="w-7 h-7 text-grass-green" />
+                      <Icon className="w-7 h-7 text-white" />
                     </motion.div>
                   </div>
                   <span className="text-white font-medium text-sm leading-snug block">
