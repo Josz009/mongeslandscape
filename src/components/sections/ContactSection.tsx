@@ -41,23 +41,16 @@ export function ContactSection() {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-            {/* Map Placeholder */}
-            <div className="aspect-video rounded-xl overflow-hidden bg-cream relative">
-              <div
-                className="absolute inset-0 bg-cover bg-center opacity-80"
-                style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2574&auto=format&fit=crop')",
-                }}
+            {/* Houston Map - OpenStreetMap */}
+            <div className="aspect-video rounded-xl overflow-hidden bg-cream relative shadow-lg">
+              <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-96.09832763671876%2C29.47772556806015%2C-94.88891601562501%2C30.192148703738967&amp;layer=mapnik&amp;marker=29.7604%2C-95.3698"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                title="Monge's Landscape Service Area - Houston, TX"
+                className="absolute inset-0"
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <div className="text-center text-white">
-                  <MapPin className="w-12 h-12 mx-auto mb-2" />
-                  <p className="font-heading font-semibold text-lg">
-                    Serving Greater Houston
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Contact Info */}
