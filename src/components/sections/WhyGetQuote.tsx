@@ -2,13 +2,22 @@
 
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
-import { CheckCircle, ArrowRight } from "lucide-react";
+import { MapPin, PenTool, ShieldCheck, Sparkles, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Container } from "@/components/ui";
 
 interface WhyGetQuoteProps {
   variant?: "section" | "card";
 }
+
+const iconAnimations = [
+  { initial: { opacity: 0, scale: 0 }, animate: { opacity: 1, scale: 1 }, hover: { rotate: [0, -10, 10, 0], transition: { duration: 0.5 } } },
+  { initial: { opacity: 0, rotate: -180 }, animate: { opacity: 1, rotate: 0 }, hover: { rotate: 15, transition: { duration: 0.3 } } },
+  { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 }, hover: { y: -3, transition: { duration: 0.3, repeat: 1, repeatType: "reverse" as const } } },
+  { initial: { opacity: 0, scale: 0.5 }, animate: { opacity: 1, scale: 1 }, hover: { scale: 1.2, rotate: 20, transition: { duration: 0.3 } } },
+];
+
+const icons = [MapPin, PenTool, ShieldCheck, Sparkles];
 
 export function WhyGetQuote({ variant = "section" }: WhyGetQuoteProps) {
   const t = useTranslations("whyGetQuote");
@@ -31,12 +40,17 @@ export function WhyGetQuote({ variant = "section" }: WhyGetQuoteProps) {
           {t("description")}
         </p>
         <ul className="space-y-3">
-          {points.map((point, index) => (
-            <li key={index} className="flex items-center gap-3">
-              <CheckCircle className="w-5 h-5 text-grass-green flex-shrink-0" />
-              <span className="text-near-black font-medium">{point}</span>
-            </li>
-          ))}
+          {points.map((point, index) => {
+            const Icon = icons[index];
+            return (
+              <li key={index} className="flex items-center gap-3">
+                <div className="w-8 h-8 rounded-lg bg-grass-green/10 flex items-center justify-center flex-shrink-0">
+                  <Icon className="w-4 h-4 text-grass-green" />
+                </div>
+                <span className="text-near-black font-medium">{point}</span>
+              </li>
+            );
+          })}
         </ul>
       </div>
     );
@@ -113,24 +127,41 @@ export function WhyGetQuote({ variant = "section" }: WhyGetQuoteProps) {
             {t("description")}
           </motion.p>
 
-          {/* Points as glass cards */}
+          {/* Points as glass cards with unique animated icons */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-14 max-w-4xl mx-auto">
-            {points.map((point, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-                whileHover={{ scale: 1.05, y: -4 }}
-                className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/10 text-center"
-              >
-                <CheckCircle className="w-7 h-7 text-grass-green mx-auto mb-3" />
-                <span className="text-white font-medium text-sm leading-snug block">
-                  {point}
-                </span>
-              </motion.div>
-            ))}
+            {points.map((point, index) => {
+              const Icon = icons[index];
+              const anim = iconAnimations[index];
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
+                  whileHover={{ scale: 1.05, y: -4 }}
+                  className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10 text-center group cursor-default"
+                >
+                  {/* Animated icon in glow circle */}
+                  <div className="relative mx-auto mb-4 w-14 h-14">
+                    <div className="absolute inset-0 rounded-full bg-grass-green/20 group-hover:bg-grass-green/30 transition-colors duration-300" />
+                    <motion.div
+                      initial={anim.initial}
+                      whileInView={anim.animate}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.5, delay: 0.5 + index * 0.15 }}
+                      whileHover={anim.hover}
+                      className="absolute inset-0 flex items-center justify-center"
+                    >
+                      <Icon className="w-7 h-7 text-grass-green" />
+                    </motion.div>
+                  </div>
+                  <span className="text-white font-medium text-sm leading-snug block">
+                    {point}
+                  </span>
+                </motion.div>
+              );
+            })}
           </div>
 
           {/* CTA Button */}
@@ -148,7 +179,12 @@ export function WhyGetQuote({ variant = "section" }: WhyGetQuoteProps) {
                 className="inline-flex items-center gap-3 px-10 py-4 bg-white text-forest-green font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 {t("cta")}
-                <ArrowRight className="w-5 h-5" />
+                <motion.span
+                  animate={{ x: [0, 4, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                >
+                  <ArrowRight className="w-5 h-5" />
+                </motion.span>
               </motion.span>
             </Link>
           </motion.div>
