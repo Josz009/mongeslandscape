@@ -25,7 +25,7 @@ export const BUSINESS_INFO = {
   email: "info@monges-landscape.com",
   name: "Monge's Landscape",
   location: "Houston, Texas",
-  instagram: "mongeslandscape",
+  instagram: "monges_landscape",
   facebook: "https://www.facebook.com/people/Monges-Landscape-LLC/100091080172139/",
   hours: {
     weekdays: "7:00 AM - 6:00 PM",
