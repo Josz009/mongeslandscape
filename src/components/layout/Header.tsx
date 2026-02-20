@@ -34,7 +34,7 @@ export function Header() {
       }`}
     >
       <Container>
-        <div className="flex items-center justify-between h-20 overflow-hidden">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link
             href={`/${locale}`}

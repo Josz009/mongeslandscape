@@ -43,7 +43,7 @@ export function ProcessStep({
         <h3 className="font-heading text-xl font-semibold text-near-black mb-2">
           {title}
         </h3>
-        <p className="text-gray-600 max-w-[200px]">{description}</p>
+        <p className="text-gray-600 md:max-w-[200px]">{description}</p>
       </motion.div>
     </div>
   );

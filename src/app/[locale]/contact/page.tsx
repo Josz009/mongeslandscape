@@ -11,6 +11,7 @@ import { BUSINESS_INFO, formatPhoneLink } from "@/lib/utils";
 export default function ContactPage() {
   const t = useTranslations("contact");
   const tInfo = useTranslations("contact.info");
+  const tPage = useTranslations("contactPage");
 
   return (
     <>
@@ -32,7 +33,7 @@ export default function ContactPage() {
                   <Phone className="w-7 h-7 text-forest-green" />
                 </div>
                 <h3 className="font-heading text-lg font-semibold text-near-black mb-2">
-                  Call Us
+                  {tPage("callUs")}
                 </h3>
                 <a
                   href={formatPhoneLink(BUSINESS_INFO.phone)}
@@ -47,7 +48,7 @@ export default function ContactPage() {
                   <Mail className="w-7 h-7 text-forest-green" />
                 </div>
                 <h3 className="font-heading text-lg font-semibold text-near-black mb-2">
-                  Email Us
+                  {tPage("emailUs")}
                 </h3>
                 <a
                   href={`mailto:${BUSINESS_INFO.email}`}
@@ -62,7 +63,7 @@ export default function ContactPage() {
                   <MapPin className="w-7 h-7 text-forest-green" />
                 </div>
                 <h3 className="font-heading text-lg font-semibold text-near-black mb-2">
-                  Service Area
+                  {tPage("serviceArea")}
                 </h3>
                 <p className="text-gray-600">{tInfo("serviceArea")}</p>
               </Card>
@@ -113,21 +114,21 @@ export default function ContactPage() {
                   </div>
                   <div className="space-y-3 text-gray-700">
                     <div className="flex justify-between">
-                      <span>Monday - Friday</span>
+                      <span>{tPage("mondayFriday")}</span>
                       <span className="font-medium">7:00 AM - 6:00 PM</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Saturday</span>
+                      <span>{tPage("saturday")}</span>
                       <span className="font-medium">8:00 AM - 4:00 PM</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Sunday</span>
-                      <span className="font-medium">Closed</span>
+                      <span>{tPage("sunday")}</span>
+                      <span className="font-medium">{tPage("closed")}</span>
                     </div>
                   </div>
                   <div className="mt-6 pt-6 border-t border-gray-200">
                     <p className="text-sm text-gray-600">
-                      Emergency services available 24/7 for urgent situations.
+                      {tPage("emergencyNote")}
                     </p>
                   </div>
                 </Card>

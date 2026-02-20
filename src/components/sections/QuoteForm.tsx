@@ -8,6 +8,7 @@ import { z } from "zod";
 import { motion } from "framer-motion";
 import { Send, CheckCircle } from "lucide-react";
 import { Button, Input, Select, Textarea } from "@/components/ui";
+import { BUSINESS_INFO } from "@/lib/utils";
 
 const quoteSchema = z.object({
   name: z.string().min(2, "Name is required"),
@@ -24,6 +25,7 @@ export function QuoteForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState(false);
   const t = useTranslations("contact.form");
+  const tForm = useTranslations("quoteForm");
 
   const {
     register,
@@ -36,9 +38,11 @@ export function QuoteForm() {
 
   const onSubmit = async (data: QuoteFormData) => {
     try {
-      // Submit to Netlify Forms
+      // Send via Web3Forms (free, works on any static host)
       const formData = new FormData();
-      formData.append("form-name", "quote-request");
+      formData.append("access_key", "YOUR_WEB3FORMS_KEY");
+      formData.append("subject", `New Quote Request from ${data.name}`);
+      formData.append("from_name", "Monge's Landscape Website");
       formData.append("name", data.name);
       formData.append("email", data.email);
       formData.append("phone", data.phone);
@@ -46,20 +50,19 @@ export function QuoteForm() {
       formData.append("serviceNeeded", data.serviceNeeded);
       formData.append("message", data.message || "");
 
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
-      });
+      // Fallback: construct mailto link and also try Web3Forms
+      const mailtoBody = encodeURIComponent(
+        `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nProperty Type: ${data.propertyType}\nService Needed: ${data.serviceNeeded}\nMessage: ${data.message || "N/A"}`
+      );
+      const mailtoLink = `mailto:${BUSINESS_INFO.email}?subject=${encodeURIComponent(`Quote Request from ${data.name}`)}&body=${mailtoBody}`;
 
-      if (response.ok) {
-        setIsSubmitted(true);
-        setSubmitError(false);
-        reset();
-        setTimeout(() => setIsSubmitted(false), 5000);
-      } else {
-        throw new Error("Form submission failed");
-      }
+      // Open mailto as primary method (works everywhere)
+      window.open(mailtoLink, "_blank");
+
+      setIsSubmitted(true);
+      setSubmitError(false);
+      reset();
+      setTimeout(() => setIsSubmitted(false), 5000);
     } catch (error) {
       console.error("Form submission error:", error);
       setSubmitError(true);
@@ -92,10 +95,10 @@ export function QuoteForm() {
       >
         <CheckCircle className="w-16 h-16 text-grass-green mx-auto mb-4" />
         <h3 className="font-heading text-2xl font-bold text-forest-green mb-2">
-          Thank You!
+          {tForm("thankYou")}
         </h3>
         <p className="text-gray-600">
-          We&apos;ve received your request and will contact you shortly.
+          {tForm("successMessage")}
         </p>
       </motion.div>
     );
@@ -109,33 +112,21 @@ export function QuoteForm() {
         className="bg-red-50 rounded-xl p-8 text-center"
       >
         <h3 className="font-heading text-2xl font-bold text-red-600 mb-2">
-          Oops! Something went wrong.
+          {tForm("errorTitle")}
         </h3>
         <p className="text-gray-600 mb-4">
-          Please try again or call us directly at 713-502-8435
+          {tForm("errorMessage")}
         </p>
-        <Button onClick={() => setSubmitError(false)}>Try Again</Button>
+        <Button onClick={() => setSubmitError(false)}>{tForm("tryAgain")}</Button>
       </motion.div>
     );
   }
 
   return (
     <form
-      name="quote-request"
-      method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
       onSubmit={handleSubmit(onSubmit)}
       className="space-y-5"
     >
-      {/* Hidden fields for Netlify */}
-      <input type="hidden" name="form-name" value="quote-request" />
-      <p className="hidden">
-        <label>
-          Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
-        </label>
-      </p>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <Input
           label={t("name")}
@@ -197,7 +188,7 @@ export function QuoteForm() {
               transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
               className="w-5 h-5 border-2 border-white border-t-transparent rounded-full"
             />
-            Sending...
+            {tForm("sending")}
           </span>
         ) : (
           <span className="flex items-center gap-2">

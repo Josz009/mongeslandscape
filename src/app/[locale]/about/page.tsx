@@ -12,6 +12,7 @@ const valueIcons = [Briefcase, Clock, MessageSquare, Award];
 
 export default function AboutPage() {
   const t = useTranslations("about");
+  const tPage = useTranslations("aboutPage");
 
   const values = [0, 1, 2, 3];
 
@@ -81,26 +82,17 @@ export default function AboutPage() {
           <Container>
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-forest-green mb-6">
-                Why We&apos;re Different
+                {tPage("whyDifferent")}
               </h2>
               <div className="space-y-6 text-left">
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  At Monge&apos;s Landscape, we&apos;re not just another landscaping company.
-                  We&apos;re a comprehensive outdoor services partner that operates with
-                  commercial-grade standards while maintaining the personal touch that
-                  Houston properties deserve.
+                  {tPage("paragraph1")}
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Our team brings years of experience serving HOAs, property managers,
-                  commercial properties, and homeowners throughout the Houston area.
-                  We understand that every property is unique, and we tailor our
-                  services to meet your specific needs.
+                  {tPage("paragraph2")}
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  What sets us apart is our commitment to communication, quality control,
-                  and real results. When you work with us, you&apos;ll always know what&apos;s
-                  happening with your property, and you&apos;ll see the difference in the
-                  quality of our work.
+                  {tPage("paragraph3")}
                 </p>
               </div>
             </div>

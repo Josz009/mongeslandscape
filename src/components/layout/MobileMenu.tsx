@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
@@ -16,7 +16,20 @@ export function MobileMenu() {
   const tCta = useTranslations("cta");
   const tServices = useTranslations("services");
   const tAudiences = useTranslations("whoWeServe.audiences");
+  const tMobile = useTranslations("mobileMenu");
   const locale = useLocale();
+
+  // Lock body scroll when menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
 
   const toggleExpanded = (key: string) => {
     setExpandedItems((prev) =>
@@ -118,13 +131,13 @@ export function MobileMenu() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed right-0 top-0 h-full w-[300px] bg-white shadow-xl z-50 overflow-y-auto"
+              className="fixed right-0 top-0 h-full w-[85vw] max-w-[300px] bg-white shadow-xl z-50 overflow-y-auto"
             >
               <div className="p-4">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
                   <span className="font-heading text-xl font-bold text-forest-green">
-                    Menu
+                    {tMobile("title")}
                   </span>
                   <button
                     onClick={closeMenu}
@@ -168,7 +181,7 @@ export function MobileMenu() {
                                     onClick={closeMenu}
                                     className="block px-4 py-2 text-near-black hover:bg-cream hover:text-grass-green rounded-lg transition-colors"
                                   >
-                                    View All
+                                    {tMobile("viewAll")}
                                   </Link>
                                   {item.children.map((child) => (
                                     <Link

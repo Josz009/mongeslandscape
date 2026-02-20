@@ -22,7 +22,7 @@ export function formatPhoneLink(phone: string): string {
 // Business contact info
 export const BUSINESS_INFO = {
   phone: "713-502-8435",
-  email: "info@monges-landscape.com",
+  email: "mongescompany@gmail.com",
   name: "Monge's Landscape",
   location: "Houston, Texas",
   instagram: "monges_landscape",

@@ -19,6 +19,7 @@ export default function AudiencePageContent({ slug }: AudiencePageContentProps) 
 
   const t = useTranslations("whoWeServe.audiences");
   const tCta = useTranslations("cta");
+  const tPage = useTranslations("audiencePage");
 
   if (!audience) {
     notFound();
@@ -67,7 +68,7 @@ export default function AudiencePageContent({ slug }: AudiencePageContentProps) 
           <Container>
             <div className="max-w-3xl mx-auto">
               <h2 className="font-heading text-3xl font-bold text-forest-green mb-8 text-center">
-                Why {name} Choose Us
+                {tPage("whyChooseUs", { name })}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {benefits.map((benefit, index) => (
@@ -94,10 +95,10 @@ export default function AudiencePageContent({ slug }: AudiencePageContentProps) 
           <Container>
             <div className="text-center">
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
-                Ready to Work Together?
+                {tPage("readyToWork")}
               </h2>
               <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-                Contact us today to discuss how we can help maintain and improve your property.
+                {tPage("ctaDescription")}
               </p>
               <Link href={`/${locale}/contact`}>
                 <Button

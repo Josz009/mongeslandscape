@@ -536,5 +536,38 @@
     "faq": "Frequently Asked Questions",
     "readyToStart": "Ready to Get Started?",
     "ctaDescription": "Contact us today for a free consultation and quote."
+  },
+  "mobileMenu": {
+    "title": "Menu",
+    "viewAll": "View All"
+  },
+  "quoteForm": {
+    "thankYou": "Thank You!",
+    "successMessage": "We've received your request and will contact you shortly.",
+    "errorTitle": "Oops! Something went wrong.",
+    "errorMessage": "Please try again or call us directly at 713-502-8435",
+    "tryAgain": "Try Again",
+    "sending": "Sending..."
+  },
+  "audiencePage": {
+    "whyChooseUs": "Why {name} Choose Us",
+    "readyToWork": "Ready to Work Together?",
+    "ctaDescription": "Contact us today to discuss how we can help maintain and improve your property."
+  },
+  "aboutPage": {
+    "whyDifferent": "Why We're Different",
+    "paragraph1": "At Monge's Landscape, we're not just another landscaping company. We're a comprehensive outdoor services partner that operates with commercial-grade standards while maintaining the personal touch that Houston properties deserve.",
+    "paragraph2": "Our team brings years of experience serving HOAs, property managers, commercial properties, and homeowners throughout the Houston area. We understand that every property is unique, and we tailor our services to meet your specific needs.",
+    "paragraph3": "What sets us apart is our commitment to communication, quality control, and real results. When you work with us, you'll always know what's happening with your property, and you'll see the difference in the quality of our work."
+  },
+  "contactPage": {
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "serviceArea": "Service Area",
+    "mondayFriday": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "emergencyNote": "Emergency services available 24/7 for urgent situations."
   }
 }

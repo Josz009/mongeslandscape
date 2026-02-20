@@ -536,5 +536,38 @@
     "faq": "Preguntas Frecuentes",
     "readyToStart": "\u00bfListo para Comenzar?",
     "ctaDescription": "Cont\u00e1ctenos hoy para una consulta y cotizaci\u00f3n gratuita."
+  },
+  "mobileMenu": {
+    "title": "Men\u00fa",
+    "viewAll": "Ver Todo"
+  },
+  "quoteForm": {
+    "thankYou": "\u00a1Gracias!",
+    "successMessage": "Hemos recibido su solicitud y nos pondremos en contacto pronto.",
+    "errorTitle": "\u00a1Ups! Algo sali\u00f3 mal.",
+    "errorMessage": "Intente de nuevo o ll\u00e1menos directamente al 713-502-8435",
+    "tryAgain": "Intentar de Nuevo",
+    "sending": "Enviando..."
+  },
+  "audiencePage": {
+    "whyChooseUs": "Por Qu\u00e9 {name} Nos Eligen",
+    "readyToWork": "\u00bfListos para Trabajar Juntos?",
+    "ctaDescription": "Cont\u00e1ctenos hoy para discutir c\u00f3mo podemos ayudar a mantener y mejorar su propiedad."
+  },
+  "aboutPage": {
+    "whyDifferent": "Por Qu\u00e9 Somos Diferentes",
+    "paragraph1": "En Monge's Landscape, no somos solo otra empresa de paisajismo. Somos un socio integral de servicios exteriores que opera con est\u00e1ndares de grado comercial mientras mantiene el toque personal que las propiedades de Houston merecen.",
+    "paragraph2": "Nuestro equipo trae a\u00f1os de experiencia sirviendo a HOAs, administradores de propiedades, propiedades comerciales y propietarios de viviendas en toda el \u00e1rea de Houston. Entendemos que cada propiedad es \u00fanica, y adaptamos nuestros servicios para satisfacer sus necesidades espec\u00edficas.",
+    "paragraph3": "Lo que nos distingue es nuestro compromiso con la comunicaci\u00f3n, el control de calidad y los resultados reales. Cuando trabaja con nosotros, siempre sabr\u00e1 lo que est\u00e1 sucediendo con su propiedad, y ver\u00e1 la diferencia en la calidad de nuestro trabajo."
+  },
+  "contactPage": {
+    "callUs": "Ll\u00e1menos",
+    "emailUs": "Escr\u00edbanos",
+    "serviceArea": "\u00c1rea de Servicio",
+    "mondayFriday": "Lunes - Viernes",
+    "saturday": "S\u00e1bado",
+    "sunday": "Domingo",
+    "closed": "Cerrado",
+    "emergencyNote": "Servicios de emergencia disponibles 24/7 para situaciones urgentes."
   }
 }

@@ -4,6 +4,11 @@ services:
     env: static
     buildCommand: npm install && npm run build
     staticPublishPath: ./out
+    routes:
+      - type: redirect
+        source: /
+        destination: /en/
+        status: 301
     headers:
       - path: /*
         name: Cache-Control
@@ -11,3 +16,6 @@ services:
       - path: /_next/static/*
         name: Cache-Control
         value: public, max-age=31536000, immutable
+      - path: /images/*
+        name: Cache-Control
+        value: public, max-age=2592000
