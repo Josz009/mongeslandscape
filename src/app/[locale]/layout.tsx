@@ -49,6 +49,26 @@ export const metadata: Metadata = {
     locale: "en_US",
     alternateLocale: "es_US",
     siteName: "Monge's Landscape",
+    url: "https://mongelandscape.com",
+    images: [
+      {
+        url: "https://mongelandscape.com/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Monge's Landscape Services - Professional Landscaping in Houston",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Monge's Landscape | Professional Landscape Services in Houston",
+    description:
+      "Professional landscape services for Houston properties. Comprehensive solutions for HOAs, property managers, commercial, and residential properties.",
+    images: ["https://mongelandscape.com/images/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
 };
 
